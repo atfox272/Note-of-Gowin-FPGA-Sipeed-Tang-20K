@@ -7,10 +7,10 @@ _(DS102E pg.16)_
 + Basic mode:
 The TC, DO, DI can connect directly to the internal cores.
 <p align="center">
-  <img src="https://github.com/atfox272/Note-of-Gowin-FPGA-Sipeed-Tang-20K-/assets/99324602/a0078c5e-60ea-447f-875b-db82da5e7634" alt="Sublime's custom image"/>
+  <img src="https://github.com/atfox272/Note-of-Gowin-FPGA-Sipeed-Tang-20K-/assets/99324602/a0078c5e-60ea-447f-875b-db82da5e7634" width=75% height=75%/>
 </p>
 <p align="center">
-  <img src="https://github.com/atfox272/Note-of-Gowin-FPGA-Sipeed-Tang-20K-/assets/99324602/2654c600-258c-4bb6-b809-9296b51ee202" alt="Sublime's custom image"/>
+  <img src="https://github.com/atfox272/Note-of-Gowin-FPGA-Sipeed-Tang-20K-/assets/99324602/2654c600-258c-4bb6-b809-9296b51ee202" width=50% height=50%/>
 </p>
 
 + SDR mode:
@@ -18,7 +18,7 @@ SDR use 3 FFs for 3 types of port (in, out, tri).
 * This mode is one of the solutions to Debounce button
 </p>
 <p align="center">
-  <img src="https://github.com/atfox272/Note-of-Gowin-FPGA-Sipeed-Tang-20K-/assets/99324602/6388ea78-afdd-4ca5-936b-48db208b4251" alt="Sublime's custom image"/>
+  <img src="https://github.com/atfox272/Note-of-Gowin-FPGA-Sipeed-Tang-20K-/assets/99324602/6388ea78-afdd-4ca5-936b-48db208b4251" width=50% height=50%/>
 </p>
 CLK enable O_CE and I_CE can be configured as active high or active low;
 O_CLK and I_CLK can be either rising edge trigger or falling edge trigger;
@@ -34,15 +34,15 @@ I/O in SDR mode can be configured as basic register or latch.
 _(DS102E pg.13)_
 - Output block example:
 <p align="center">
-  <img src="https://github.com/atfox272/Note-of-Gowin-FPGA-Sipeed-Tang-20K-/assets/99324602/bc6097e9-2fe5-424c-af27-2af7189baaa4" alt="Sublime's custom image"/>
+  <img src="https://github.com/atfox272/Note-of-Gowin-FPGA-Sipeed-Tang-20K-/assets/99324602/bc6097e9-2fe5-424c-af27-2af7189baaa4" width=50% height=50%/>
 </p>
 - Input block example:
 <p align="center">
-  <img src="https://github.com/atfox272/Note-of-Gowin-FPGA-Sipeed-Tang-20K-/assets/99324602/2654c600-258c-4bb6-b809-9296b51ee202" alt="Sublime's custom image"/>
+  <img src="https://github.com/atfox272/Note-of-Gowin-FPGA-Sipeed-Tang-20K-/assets/99324602/2654c600-258c-4bb6-b809-9296b51ee202" width=50% height=50%/>
 </p>
 - Each I/O of the GW2A series of FPGA products has an IODELAY cell. A total of 128(0~127) step delay is provided, with one-step delay time of about 18ps. (overview)
 <p align="center">
-  <img src="https://github.com/atfox272/Note-of-Gowin-FPGA-Sipeed-Tang-20K-/assets/99324602/8ecd0978-0ab9-46b1-8d40-895e9c26204f" alt="Sublime's custom image"/>
+  <img src="https://github.com/atfox272/Note-of-Gowin-FPGA-Sipeed-Tang-20K-/assets/99324602/8ecd0978-0ab9-46b1-8d40-895e9c26204f" width=60% height=60%/>
 </p>
 - The delay cell can be controlled in two ways:
 + Static control. (default value)
@@ -58,7 +58,7 @@ _(DS102E pg.13)_
 ### High-speed Clock (HCLK)
 - HCLK is the high-speed clock in the GW2A series FPGA products, which can support high-speed data transfer and is mainly suitable for source synchronous data transfer protocols
 <p align="center">
-  <img src="https://github.com/atfox272/Note-of-Gowin-FPGA-Sipeed-Tang-20K-/assets/99324602/f54792d4-c794-4a8a-b2ac-ce5e6cc0aabc" alt="Sublime's custom image"/>
+  <img src="https://github.com/atfox272/Note-of-Gowin-FPGA-Sipeed-Tang-20K-/assets/99324602/f54792d4-c794-4a8a-b2ac-ce5e6cc0aabc" width=60% height=60%/>
 </p>
 - There is an 8: 1 HCLKMUX module in the middle of the high-speed clock HCLK. HCLKMUX can send HCLK clock signal from any Bank to any other bank, which makes the use of HCLK more flexible.
 - CLK can provide user with the function modules as follows:
@@ -69,7 +69,7 @@ _(DS102E pg.13)_
 
 ### DC Electrical Characteristic
 <p align="center">
-  <img src="https://github.com/atfox272/Note-of-Gowin-FPGA-Sipeed-Tang-20K-/assets/99324602/934d06e8-44e7-4b85-9107-5b9a40e626ed" alt="Sublime's custom image"/>
+  <img src="https://github.com/atfox272/Note-of-Gowin-FPGA-Sipeed-Tang-20K-/assets/99324602/934d06e8-44e7-4b85-9107-5b9a40e626ed" width=150% height=150%/>
 </p>
 
 ## Constraints
